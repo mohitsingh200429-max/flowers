@@ -990,3 +990,20 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+
+.message{
+  position:absolute;
+  top:15%;
+  width:100%;
+  text-align:center;
+  font-size:28px;
+  color:white;
+  font-family:cursive;
+  animation:fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(-20px);}
+  to{opacity:1;transform:translateY(0);}
+}
